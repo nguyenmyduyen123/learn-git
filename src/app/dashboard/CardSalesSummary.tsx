@@ -46,6 +46,7 @@ const CardSalesSummary = () => {
       })
     : "N/A";
   console.log("test master");
+  console.log("test fetch in test_fetch branch");
   const proccessSummaryArray = useMemo(() => {
     return salesSummaryArray?.map((summary) => {
       return {
