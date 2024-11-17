@@ -45,7 +45,7 @@ const CardSalesSummary = () => {
         year: "2-digit",
       })
     : "N/A";
-
+  console.log("test master");
   const proccessSummaryArray = useMemo(() => {
     return salesSummaryArray?.map((summary) => {
       return {
