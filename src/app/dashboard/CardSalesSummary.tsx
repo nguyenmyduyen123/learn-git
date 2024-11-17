@@ -52,7 +52,7 @@ const CardSalesSummary = () => {
         ...summary,
         date:
           summary.date &&
-          new Date(summary.date).toLocaleString("vi-vi", {
+          new Date(summary.date).toLocaleString("vi", {
             month: "numeric",
             day: "numeric",
             year: "2-digit",
